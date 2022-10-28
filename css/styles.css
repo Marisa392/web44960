@@ -1,0 +1,447 @@
+
+header {
+    background-color:#757575;
+    min-height: 15vh;
+}
+
+body {
+    background-color:#F1F2F2;
+}
+
+nav ul {
+    list-style-type: none
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+
+body {
+
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #606578;
+}
+ /*MISION */ 
+.tituloMision {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+ /*MISION */ 
+  /*INDEX */ 
+.tituloIndex{
+    
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    
+}
+ /*INDEX */ 
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #606578;;
+    font-size: 1.1em;
+    line-height: 1;
+    
+}
+    
+
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #606578;
+    font-size: 1.3rem;
+    text-align: center;
+
+}
+
+.galeria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+  
+}
+
+.img{
+    
+    padding:5px ;
+    width: 550px;
+}
+
+ /*MISION */ 
+.imagenMision {
+    display: flex;
+    background-repeat: no-repeat;
+    background-position:left; 
+    height:320px;
+    width: 610px;
+    opacity: 1;
+    
+}
+
+.division{
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    
+}
+ 
+
+.imagenMision2 {
+    background-image: url("../assets/coetemision.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+   background-size: cover;
+    height: 400px;
+    width: 1800px;
+    opacity: 1;
+
+}
+
+.textoMision {
+    font-family: 'Open Sans', sans-serif;
+
+}
+ /*SOBREMI */ 
+.fotoSobreMi {
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: cover;
+    height: 450px;
+    width: 500px;
+    opacity: 1;
+    margin-left: auto;
+}
+
+.sobreMi{
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+  
+
+}
+
+ /*SOBREMI */ 
+ /*INDEX*/ 
+.fotoIndex {
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    height:450px;
+    width:400px;
+    opacity: 1;
+    margin-left: auto;
+    float: left;
+    margin: 0px;
+    
+}
+ /*INDEX */ 
+ /*MISION */ 
+.box1 {
+   
+    width: 10em;
+    background-color: #D7D7D9;
+    height: 15em;
+    padding: 1em 1.5em;
+    margin: 0.1em 0.7em 1em 0.7em;
+    border: solid;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.box2 {
+    width: 10em;
+    background-color:#D7D7D9;
+    height: 15em;
+    padding: 1em 1.5em;
+    margin: 0.1em 0.7em 1em 0.7em;
+    border: solid;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.box3 {
+    width: 10em;
+    background-color:#D7D7D9;
+    height: 15em;
+    padding: 1em 1.5em;
+    margin: 0.1em 0.7em 1em 0.7em;
+    border: solid;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.box4 {
+    width: 10em;
+    background-color:#D7D7D9;
+    height: 15em;
+    padding: 1em 1.5em;
+    margin: 0.1em 0.7em 1em 0.7em;
+    border: solid;
+    font-family: 'Open Sans', sans-serif;
+}
+.box1 h1 {
+    color:black;
+}
+
+.box1 p {
+    color:black
+}
+
+
+
+.box2 h1  {
+    color:black;
+}
+
+.box2 p {
+    color:black;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+
+}
+
+
+ /*MISION */ 
+
+  /* */ 
+label {
+display: block;
+}
+ /*contacto */ 
+
+header nav{
+    display: flex;
+    flex-direction:row;
+    padding: 1em;
+    justify-content:space-between;
+   
+}
+
+
+header nav a img{
+    width: 3em;
+   
+    
+}
+    header nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+    }
+
+ header nav ul li {
+   list-style: none;
+   font-family: opens sans-serif;
+   margin-right: 10px;
+ 
+   
+}
+header nav ul li a
+{
+text-decoration: none;
+color: #F1F2F2;
+align-items: flex-end;
+
+
+}
+
+footer{
+    min-height: 15vh;
+    background-color:#757575;
+    width: 100%;
+}
+
+ 
+
+ /*MISION,CONTACTO,SOBREMI, SERVICIOS */ 
+
+.pieDePagina{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+ align-items:center;
+ padding: 50px;
+}
+
+
+ /*INDEX */ 
+
+.gridsBody{
+    display: grid;
+    grid-row-gap: 1em;
+    grid-template-rows: 25% 50% 25% 70% 20%;
+    grid-template-areas: 
+    "nav"
+    "contenido"
+    "primero"
+    "segundo"
+    "ver ";
+    
+ }
+
+.headerIndex{
+    grid-area: nav;
+    
+}
+
+.mainIndex{
+    grid-area: contenido;
+    background-color:#F2B263;
+    justify-self: stretch;
+    text-align: left;
+}
+    
+.sectionIndex1{
+    grid-area: primero;
+    text-align: center;
+}
+
+    .sectionIndex2{
+        
+        grid-area:segundo;
+        background-color:#F2F2F2;
+        text-align:center;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+    }
+    
+
+    #nosVemosFooter{
+        color:white;
+       
+
+    }
+    
+    .footerIndex{
+        color:white;
+    grid-area: ver;
+    display: flex;
+     flex-direction:row;
+     justify-content: space-between;
+     align-items:center;
+     padding: 50px;
+    
+    }
+
+
+
+  /*mobilefirt*/ 
+  @media (min-width:400px)and(max-width: 767){
+    .gridsBody{
+        grid-template-columns: repeat 1fr;
+        grid-template-rows: 25% 30% 80% 20%;
+        grid-template-areas: 
+        "nav"
+        "contenido"
+        "segundo"
+        "ver ";
+        
+    
+     }  
+  }
+    /*TABLET*/ 
+
+  @media (min-width:400px)and(max-width: 1023){
+    
+    .gridsBody{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 10% 40% 50% 20%;
+        grid-template-areas: 
+        "nav nav"
+        "contenido contenido"
+        "segundo segundo"
+        "ver ver ";
+        
+  }
+}
+ /*DESTOCK*/ 
+
+@media (min-width:1024px) {
+ .gridsBody{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 6em 28.3em 18em 8em;
+    grid-template-areas: 
+    "nav nav nav"
+    "contenido contenido contenido "
+    "segundo segundo segundo"
+    "ver ver ver ";
+    grid-row-gap: 1em;
+}
+
+}
+    
+
+
+.logo1{
+
+    height: 300px;
+    width: 300px;
+    background-color: #D7D7D9;
+    margin: 10px;
+    height: 15em;
+    padding: 1em 1.5em;
+    border: solid;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.logo2 {
+   
+    height: 300px;
+    width: 300px;
+    background-color: #D7D7D9;
+    margin: 10px;
+    height: 15em;
+    padding: 1em 1.5em;
+    border: solid;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+.logo3{
+
+    
+    height: 300px;
+    width: 300px;
+    background-color: #D7D7D9;
+    margin: 10px;
+    height: 15em;
+    padding: 1em 1.5em;
+    border: solid;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.rrss svg:hover{
+    color: blanchedalmond;
+    transform: scale(1.2,1.2);
+}
+
+.rrss svg{
+    width: 2em;
+    height: 2em;
+}
+
