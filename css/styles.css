@@ -131,12 +131,12 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 450px;
-    width: 400px;
     opacity: 1;
     margin-left: auto;
     float: left;
     margin: 0px;
+    width: 415px;
+    height: 415px;
 
 }
 
@@ -309,18 +309,27 @@ footer {
 }
 
 
-/*VER MEDIA */
-@media (min-width: 420px) and (max-width: 767px) {
+
+@media (min-width: 320px) and (max-width: 419px) {
     .gridsBody {
         grid-template-columns: 1fr;
        
-        grid-template-rows: 10% 45% 6% 35% 15%;
+        grid-template-rows: 10% 44% 7% 35% 15%;
 
 
     }
 }
 
 
+@media (min-width: 420px) and (max-width: 767px) {
+    .gridsBody {
+        grid-template-columns: 1fr;
+       
+        grid-template-rows: 10% 44% 7% 38% 15%;
+
+
+    }
+}
 
 .headerIndex {
     grid-area: nav;
