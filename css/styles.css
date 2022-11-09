@@ -331,8 +331,13 @@ footer {
     }
 }
 
+
+@media (min-width: 1022px) {
 .headerIndex {
     grid-area: nav;
+    grid-template-columns: 1fr;
+       
+    grid-template-rows: 10% 44% 7% 38% 15%;
 
 }
 
