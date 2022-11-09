@@ -135,9 +135,10 @@ h2 {
     margin-left: auto;
     float: left;
     margin: 0px;
-    width: 415px;
-    height: 415px;
-
+    max-width:415px;
+    max-height:415px;
+    width: 50%;
+    height: 50%;
 }
 
 /*INDEX */
@@ -150,7 +151,7 @@ h2 {
 
     width: 10em;
     background-color: #D7D7D9;
-    height: 15em;
+    height: 20em;
     padding: 1em 1.5em;
     margin: 0.1em 0.7em 1em 0.7em;
     border: none;
@@ -314,7 +315,7 @@ footer {
     .gridsBody {
         grid-template-columns: 1fr;
        
-        grid-template-rows: 10% 44% 7% 35% 15%;
+        grid-template-rows: 10% 38% 9% 35% 15%;
 
 
     }
@@ -332,12 +333,12 @@ footer {
 }
 
 
-@media (min-width: 1022px) {
+/* @media (min-width: 1022px) { */
 .headerIndex {
     grid-area: nav;
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr;
        
-    grid-template-rows: 10% 44% 7% 38% 15%;
+    grid-template-rows: 10% 44% 7% 38% 15%; */
 
 }
 
@@ -376,15 +377,15 @@ footer {
 }
 
 .logo1 img{
-    width: 200px;
+    width: 180px;
     
 }
 .logo2 img{
-    width: 130px;
+    width: 110px;
 }
 
 .logo3 img{
-    width:120px;
+    width: 120px;
 }
 
 
@@ -415,8 +416,7 @@ footer {
 /*index*/
 .logo1 {
 
-    height: 300px;
-    width: 300px;
+   
     background-color: #D7D7D9;
     margin: 1px;
     height: 15em;
@@ -424,14 +424,15 @@ footer {
     padding-right: 10px;
     border: solid;
     font-family: 'Open Sans', sans-serif;
+    height: 200px;
+    width: 200px;
 
 
 }
 
 .logo2 {
 
-    height: 300px;
-    width: 300px;
+    
     background-color: #D7D7D9;
     margin: 1px;
     height: 15em;
@@ -439,6 +440,8 @@ footer {
     padding-right: 10px;
     border: solid;
     font-family: 'Open Sans', sans-serif;
+    height: 200px;;
+    width: 200px;;
 
 
 }
@@ -446,8 +449,7 @@ footer {
 .logo3 {
 
 
-    height: 300px;
-    width: 300px;
+    
     background-color: #D7D7D9;
     margin: 1px;
     height: 15em;
@@ -455,6 +457,8 @@ footer {
     padding-right: 10px;
     border: solid;
     font-family: 'Open Sans', sans-serif;
+    height: 200px;;
+    width: 200px;;
 
 }
 
