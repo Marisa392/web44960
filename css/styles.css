@@ -414,30 +414,6 @@ h2,p, h1{
      
 }
 
-@media (min-width: 320px) and (max-width: 419px) {
-    .bodyContacto{
-        background-color: #f5be6b;
-    }
-
-}
-    @media (min-width: 420px) and (max-width: 767px) {
-.bodyContacto{
-    background-color: aqua;
-}
-
-
-    }
-
-
-
-
-
-iframe{
-    width: 100%;
-    max-height: 500px;
-    max-width: 500px;
-    
-}
 
 
 
