@@ -366,8 +366,8 @@ grid-template-rows: 10% 44% 7% 38% 15%;
     }
     
     img{
-        width: 25%;
-        max-width: 300px;
+        width: 100%;
+        max-width: 350px;
         max-height: 300px;
     }
      
@@ -396,9 +396,9 @@ grid-template-rows: 10% 44% 7% 38% 15%;
 
     .img{
 
-        width: 25%;
-        max-width: 300px;
-        max-height: 300px;
+        width: 100%;
+        max-width: 500px;
+        max-height: 500px;
 
       }
 
