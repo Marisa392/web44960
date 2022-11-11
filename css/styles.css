@@ -330,9 +330,6 @@ footer {
 
 
 
-
-
-
 @media (min-width: 420px) and (max-width: 767px) {
     .gridsBody {
 
@@ -367,16 +364,16 @@ grid-template-rows: 10% 44% 7% 38% 15%;
         background-color: aqua;
         font-size: 1em;
     }
-
-    .img{
-
-      width: 100%;  
+    
+    img{
+        width: 25%;
+        max-width: 300px;
+        max-height: 300px;
     }
-
-    h2,p{
-        font-size: 1rem;
-    }
-
+     
+      
+   
+      
     }
 
 
@@ -396,6 +393,16 @@ grid-template-rows: 10% 44% 7% 38% 15%;
     h2,p{
         font-size: 1rem;
     }
+
+    .img{
+
+        width: 25%;
+        max-width: 300px;
+        max-height: 300px;
+
+      }
+
+     
 }
 
 
@@ -595,5 +602,5 @@ grid-template-rows: 10% 44% 7% 38% 15%;
 }
 
 .tituloServicios{
-    font-size: 20rem;
+    font-size: 2rem;
 }
