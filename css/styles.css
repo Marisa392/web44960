@@ -155,18 +155,19 @@ h2 {
 
 .box1 {
 
-    width: 10em;
+    width: 19em;
     background-color: #D7D7D9;
-    height: 20em;
+    height: 15em;
     padding: 1em 1.5em;
     margin: 0.1em 0.7em 1em 0.7em;
     border: none;
     font-family: 'Open Sans', sans-serif;
+    text-align: left;
 
 }
 
 .box2 {
-    width: 10em;
+    width: 19em;
     background-color: #D7D7D9;
     height: 15em;
     padding: 1em 1.5em;
@@ -178,7 +179,7 @@ h2 {
 
 
 .box3 {
-    width: 10em;
+    width: 19em;
     background-color: #D7D7D9;
     height: 15em;
     padding: 1em 1.5em;
@@ -188,7 +189,7 @@ h2 {
 }
 
 .box4 {
-    width: 10em;
+    width: 19em;
     background-color: #D7D7D9;
     height: 15em;
     padding: 1em 1.5em;
@@ -330,36 +331,9 @@ footer {
         font-size: 0.6em;
     }
 
-}
-
-
-
-@media (min-width: 420px) and (max-width: 767px) {
-    .gridsBody {
-
-grid-template-columns: 1fr;
-
-grid-template-rows: 10% 44% 7% 48% 15%;
-}
-
-h2,p, h1{
-    font-size: 0.6em;
-}
-
-}
     
-
-
-
-
-/* @media (min-width: 1022px) { */
-.headerIndex {
-    grid-area: nav;
-    /* grid-template-columns: 1fr;
-       
-    grid-template-rows: 10% 44% 7% 38% 15%; */
-
 }
+
 
 
 
@@ -416,6 +390,35 @@ h2,p, h1{
 
 
 
+@media (min-width: 320px) and (max-width: 419px) {
+    .container{
+        background-color: gold;
+
+    } 
+.carouselExampleDark{
+    background-color: aqua;
+}
+
+}
+
+@media (min-width: 420px) and (max-width: 767px) {
+    .container{
+        background-color: red;
+
+    }
+    
+    .carouselExampleDark{
+
+        background-color: orange;
+    }
+
+}
+
+
+
+
+
+
 
 .mainIndex {
     grid-area: contenido;
@@ -438,6 +441,8 @@ h2,p, h1{
     align-content: flex-end;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom:3em ;
+    
 }
 
 .footerIndex {
@@ -555,7 +560,7 @@ h2,p, h1{
     margin-top: 1em;
     margin-bottom: 1em;
     grid-template-columns: repeat(3, 390px);
-    grid-template-rows: 2 100px 1 40px;
+    grid-template-rows: 2 100px 1 20px;
     grid-template-areas:
         "dos uno cuatro"
         "tres uno cuatro";
@@ -570,7 +575,7 @@ h2,p, h1{
 .uno {
     grid-area: uno;
     height: 580px;
-    width: 385px;
+    width: 350px;
     object-fit: cover;
     border-radius: 10 px;
     border: solid gray;
@@ -579,7 +584,7 @@ h2,p, h1{
 
 .dos {
     grid-area: dos;
-    height: 325px;
+    height: 340px;
     width: 385px;
     object-fit: cover;
     border-radius: 10 px;
@@ -599,17 +604,22 @@ h2,p, h1{
 
 .cuatro {
     grid-area: cuatro;
-
     width: 620px;
     background-color: white;
     margin: 1px;
     height: 33em;
     padding-top: 35px;
-    padding-right: 20px;
+    padding-right: 15px;
     border: solid gray;
     font-family: 'Open Sans', sans-serif;
 }
 
+
 .tituloServicios{
     font-size: 2rem;
+}
+
+.frasesMision{
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
