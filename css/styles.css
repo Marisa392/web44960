@@ -386,6 +386,18 @@ footer {
       }
 
      
+
+    }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+.galeria{
+    background-color: #f5be6b;
+}
+
+.serviciosParrafo{
+    background-color: blue;
+}
+
 }
 
 
@@ -407,14 +419,17 @@ footer {
 
     }
     
-    .carouselExampleDark{
-
-        background-color: orange;
-    }
-
+   
 }
 
+@media (min-width: 992px) and (max-width: 1200px) {
+    .container{
+        background-color: blue;
 
+    }
+    
+    
+}
 
 
 
