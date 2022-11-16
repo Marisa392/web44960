@@ -1,17 +1,14 @@
 header {
-    background-color: #757575;
-    min-height: 15vh;
+    min-height: 20vh;
+   
+    background-color:#757575;
 }
+
+
 
 body {
-    background-color: #F1F2F2;
-}
+    background-color: #F1F2F2;}
 
-nav ul :hover {
-    list-style-type: none;
-    transform: scale(1.2, 1.2);
-
-}
 
 
 
@@ -40,6 +37,9 @@ h1 {
     color: #606578;
 }
 
+.contacto{
+    font-size: 1.5em;
+}
 /*MISION */
 .tituloMision {
     text-align: center;
@@ -83,7 +83,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    grid-column-gap: 1em;
+    grid-column-gap: 2em;
 
 }
 
@@ -233,44 +233,7 @@ label {
 
 /*contacto */
 
-header nav {
-    display: flex;
-    flex-direction: row;
-    padding: 1em;
-    justify-content: space-between;
 
-}
-
-
-header nav a img {
-    width: 3em;
-
-
-}
-
-header nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-header nav ul li {
-    list-style: none;
-    font-family: opens sans-serif;
-    margin-right: 10px;
-
-
-}
-
-header nav ul li a {
-
-    text-decoration: none;
-    color: #F1F2F2;
-    align-items: flex-end;
-
-
-}
 
 footer {
     min-height: 15vh;
@@ -418,6 +381,14 @@ footer {
     background-color: aqua;
 }
 
+
+
+h2,p{
+    font-size: 0.6rem;
+}
+
+
+
 }
 
 @media (min-width: 420px) and (max-width: 767px) {
@@ -444,9 +415,11 @@ footer {
 
 .mainIndex {
     grid-area: contenido;
-    background-color: #f5be6b;
     justify-self: stretch;
     text-align: left;
+    background-color: #f3ba65;
+    font-size: 1em;
+    
 }
 
 .sectionIndex1 {
@@ -475,6 +448,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 50px;
+ 
 
 }
 
@@ -510,6 +484,7 @@ footer {
 #nosVemosFooter {
     color: #1F0802;
     font-family: opens sans-serif;
+   
 
 }
 
@@ -580,7 +555,7 @@ footer {
     display: grid;
     margin-left: 1em;
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     grid-template-columns: repeat(3, 390px);
     grid-template-rows: 2 100px 1 20px;
     grid-template-areas:
@@ -589,6 +564,7 @@ footer {
     align-items: center;
     align-content: center;
     justify-content: left;
+    grid-column-gap: 0.2em;
 }
 
 
@@ -626,11 +602,11 @@ footer {
 
 .cuatro {
     grid-area: cuatro;
-    width: 620px;
+    width:600px;
     background-color: white;
     margin: 1px;
     height: 33em;
-    padding-top: 35px;
+    padding-top: 40px;
     padding-right: 15px;
     border: solid gray;
     font-family: 'Open Sans', sans-serif;
@@ -638,10 +614,12 @@ footer {
 
 
 .tituloServicios{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .frasesMision{
     margin-top: 1em;
     margin-bottom: 2em;
 }
+
+
