@@ -1,9 +1,73 @@
-section{
+header {
+    min-height: 20vh;
 
-    h1{
+    background-color: #757575;
+}
 
-        font-size: large;
+main {
+
+    h1 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.5rem;
+        text-align: center;
+        color: #606578;
     }
+
+    section {
+
+        .tituloServicios {
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+
+    }
+
+
+    .galeria {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        grid-column-gap: 2em;
+
+
+        .img {
+
+            width: 75%;
+            height: 75%;
+            width: 500px;
+            height: 400px;
+        }
+
+
+    }
+
+    .serviciosParrafo {
+
+        font-size: 1em;
+        font-family: 'Open Sans', sans-serif;
+
+
+    }
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #757575;
+
+    p{
+        font-family: 'Open Sans', sans-serif;
+        color: #1F0802;
+}
+
+
+
 }
 
 
@@ -11,10 +75,7 @@ section{
 
 
 
-
-
-
-
+    
 
 
 

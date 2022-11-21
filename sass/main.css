@@ -1,3 +1,45 @@
-section h1 {
-  font-size: large;
+header {
+  min-height: 20vh;
+  background-color: #757575;
+}
+
+main h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #606578;
+}
+main section .tituloServicios {
+  font-size: 1.5rem;
+  text-align: center;
+}
+main .galeria {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 2em;
+}
+main .galeria .img {
+  width: 75%;
+  height: 75%;
+  width: 500px;
+  height: 400px;
+}
+main .serviciosParrafo {
+  font-size: 1em;
+  font-family: "Open Sans", sans-serif;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #757575;
+}
+footer p {
+  font-family: "Open Sans", sans-serif;
+  color: #1F0802;
 }/*# sourceMappingURL=main.css.map */

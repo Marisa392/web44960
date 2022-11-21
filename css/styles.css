@@ -47,8 +47,82 @@ h1 {
 
 }
 
+.subtitulo{
+
+    margin-top:2em ;
+}
+
+.col{
+    text-align: center;
+}
 /*MISION */
 /*INDEX */
+
+.sectionIndex2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom:2em ;
+
+}
+
+.logo1 {
+
+
+    background-color: #D7D7D9;
+    margin: 1px;
+    height: 15em;
+    padding-top: 1px;
+    padding-right: 10px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    height: 225px;
+    width: 200px;
+    margin-top: 1em;
+    margin-bottom:1em ;
+    text-align: center;
+
+
+}
+
+.logo2 {
+
+
+    background-color: #D7D7D9;
+    margin: 1px;
+    height: 15em;
+    padding-top: 20px;
+    padding-right: 10px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    height: 225px;
+    width: 200px;
+    margin-top: 1em;
+    margin-bottom:1em ;
+    text-align: center;
+  
+
+
+}
+
+.logo3 {
+
+    background-color: #D7D7D9;
+    margin: 1px;
+    height: 15em;
+    padding-top: 30px;
+    padding-right: 10px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    height: 225px;
+    width: 200px;
+    margin-top: 1em;
+    margin-bottom:1em ;
+    text-align: center;
+    
+
+}
+
 .tituloIndex {
 
     font-family: 'Open Sans', sans-serif;
@@ -56,6 +130,7 @@ h1 {
     font-size: 2em;
 
 }
+
 
 /*INDEX */
 p {
@@ -76,6 +151,9 @@ h2 {
     text-align: center;
 
 }
+
+
+
 
 /*SERVICIOS */
 .galeria {
@@ -107,44 +185,12 @@ h2 {
 
 
 
-/*SOBREMI */
-.fotoSobreMi {
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
-    height: 450px;
-    width: 500px;
-    opacity: 1;
-    margin-left: auto;
-}
 
-.sobreMi {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-
-
-}
 
 /*SOBREMI 
 /*INDEX*/
-.fotoIndex {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    opacity: 1;
-    margin-left: auto;
-    float: left;
-    margin: 0px;
-    max-width: 415px;
-    max-height: 415px;
-    width: 50%;
-    height: 50%;
-}
+
+ 
 
 /*INDEX */
 /*MISION */
@@ -251,33 +297,23 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 50px;
+    font-family: 'Open Sans', sans-serif;
+    
+   
 }
 
 
 
-
-
-#nosVemosFooter {
+#nosVemosFooter{
+    font-family: 'Open Sans', sans-serif;
     color: #1F0802;
-    font-family: opens sans-serif;
-
+    font-size: 1rem;
 }
+
+
 
 /*INDEX */
 
-.gridsBody {
-    display: grid;
-    grid-row-gap: 1em;
-    grid-template-columns: 1fr;
-    grid-template-rows: 15% 48% 13% 20% 15%;
-    grid-template-areas:
-        "nav"
-        "contenido"
-        "primero"
-        "segundo"
-        "ver ";
-
-}
 
 
 
@@ -413,32 +449,11 @@ h2,p{
 
 
 
-.mainIndex {
-    grid-area: contenido;
-    justify-self: stretch;
-    text-align: left;
-    background-color: #f3ba65;
-    font-size: 1em;
-    
-}
 
-.sectionIndex1 {
-    grid-area: primero;
-}
 
-.sectionIndex2 {
 
-    grid-area: segundo;
-    background-color: #F2F2F2;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-end;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-bottom:3em ;
-    
-}
+
+
 
 .footerIndex {
     color: white;
@@ -488,59 +503,6 @@ h2,p{
 
 }
 
-
-
-
-/*index*/
-.logo1 {
-
-
-    background-color: #D7D7D9;
-    margin: 1px;
-    height: 15em;
-    padding-top: 1px;
-    padding-right: 10px;
-    border: solid;
-    font-family: 'Open Sans', sans-serif;
-    height: 200px;
-    width: 200px;
-
-
-}
-
-.logo2 {
-
-
-    background-color: #D7D7D9;
-    margin: 1px;
-    height: 15em;
-    padding-top: 25px;
-    padding-right: 10px;
-    border: solid;
-    font-family: 'Open Sans', sans-serif;
-    height: 200px;
-    
-    width: 200px;
-  
-
-
-}
-
-.logo3 {
-
-    background-color: #D7D7D9;
-    margin: 1px;
-    height: 15em;
-    padding-top: 30px;
-    padding-right: 10px;
-    border: solid;
-    font-family: 'Open Sans', sans-serif;
-    height: 200px;
-    width: 200px;
-    
-
-}
-
 .rrss svg:hover {
 
     transform: scale(1.2, 1.2);
@@ -551,66 +513,21 @@ h2,p{
     height: 2em;
 }
 
-.galeriaMision {
-    display: grid;
-    margin-left: 1em;
-    margin-top: 1em;
-    margin-bottom: 2em;
-    grid-template-columns: repeat(3, 390px);
-    grid-template-rows: 2 100px 1 20px;
-    grid-template-areas:
-        "dos uno cuatro"
-        "tres uno cuatro";
-    align-items: center;
-    align-content: center;
-    justify-content: left;
-    grid-column-gap: 0.2em;
+
+.parallax{
+    background-image: url(../assets/4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 85vh;
 }
+   
+ 
 
 
 
 
-.uno {
-    grid-area: uno;
-    height: 580px;
-    width: 350px;
-    object-fit: cover;
-    border-radius: 10 px;
-    border: solid gray;
-
-}
-
-.dos {
-    grid-area: dos;
-    height: 340px;
-    width: 385px;
-    object-fit: cover;
-    border-radius: 10 px;
-    border: solid gray;
-
-
-}
-
-.tres {
-    grid-area: tres;
-    height: 240px;
-    width: 383px;
-    object-fit: cover;
-    border-radius: 10 px;
-    border: solid gray;
-}
-
-.cuatro {
-    grid-area: cuatro;
-    width:600px;
-    background-color: white;
-    margin: 1px;
-    height: 33em;
-    padding-top: 40px;
-    padding-right: 15px;
-    border: solid gray;
-    font-family: 'Open Sans', sans-serif;
-}
 
 
 .tituloServicios{
@@ -618,8 +535,13 @@ h2,p{
 }
 
 .frasesMision{
-    margin-top: 1em;
+    margin-top: 2em;
     margin-bottom: 2em;
 }
 
 
+.navbar{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    
+}
