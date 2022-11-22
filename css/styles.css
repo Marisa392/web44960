@@ -1,547 +1,390 @@
+
+
+.probando {
+    background-color: #f5be6b;
+}
+
 header {
     min-height: 20vh;
-   
-    background-color:#757575;
-}
-
-
-
-body {
-    background-color: #F1F2F2;}
-
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
-* {
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-
-
-}
-
-
-body {
-
-    overflow-x: hidden;
-}
-
-h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.5rem;
-    text-align: center;
-    color: #606578;
-}
-
-.contacto{
-    font-size: 1.5em;
-}
-/*MISION */
-.tituloMision {
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-
-}
-
-.subtitulo{
-
-    margin-top:2em ;
-}
-
-.col{
-    text-align: center;
-}
-/*MISION */
-/*INDEX */
-
-.sectionIndex2{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-bottom:2em ;
-
-}
-
-.logo1 {
-
-
-    background-color: #D7D7D9;
-    margin: 1px;
-    height: 15em;
-    padding-top: 1px;
-    padding-right: 10px;
-    border: none;
-    font-family: 'Open Sans', sans-serif;
-    height: 225px;
-    width: 200px;
-    margin-top: 1em;
-    margin-bottom:1em ;
-    text-align: center;
-
-
-}
-
-.logo2 {
-
-
-    background-color: #D7D7D9;
-    margin: 1px;
-    height: 15em;
-    padding-top: 20px;
-    padding-right: 10px;
-    border: none;
-    font-family: 'Open Sans', sans-serif;
-    height: 225px;
-    width: 200px;
-    margin-top: 1em;
-    margin-bottom:1em ;
-    text-align: center;
-  
-
-
-}
-
-.logo3 {
-
-    background-color: #D7D7D9;
-    margin: 1px;
-    height: 15em;
-    padding-top: 30px;
-    padding-right: 10px;
-    border: none;
-    font-family: 'Open Sans', sans-serif;
-    height: 225px;
-    width: 200px;
-    margin-top: 1em;
-    margin-bottom:1em ;
-    text-align: center;
-    
-
-}
-
-.tituloIndex {
-
-    font-family: 'Open Sans', sans-serif;
-    text-align: left;
-    font-size: 2em;
-
-}
-
-
-/*INDEX */
-p {
-    font-family: 'Open Sans', sans-serif;
-    color: #606578;
-
-    font-size: 1.1rem;
-    line-height: 1;
-
-}
-
-
-
-h2 {
-    font-family: 'Open Sans', sans-serif;
-    color: #606578;
-    font-size: 1.3rem;
-    text-align: center;
-
-}
-
-
-
-
-/*SERVICIOS */
-.galeria {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    grid-column-gap: 2em;
-
-}
-
-.img {
-
-
-    width: 75%;
-    height: 75%;
-    width: 500px;
-    height: 400px;
-}
-
-
-
-.division {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-
-}
-
-
-
-
-
-/*SOBREMI 
-/*INDEX*/
-
- 
-
-/*INDEX */
-/*MISION */
-.textoMision {
-    font-family: 'Open Sans', sans-serif;
-
-}
-
-.box1 {
-
-    width: 19em;
-    background-color: #D7D7D9;
-    height: 15em;
-    padding: 1em 1.5em;
-    margin: 0.1em 0.7em 1em 0.7em;
-    border: none;
-    font-family: 'Open Sans', sans-serif;
-    text-align: left;
-
-}
-
-.box2 {
-    width: 19em;
-    background-color: #D7D7D9;
-    height: 15em;
-    padding: 1em 1.5em;
-    margin: 0.1em 0.7em 1em 0.7em;
-    border: none;
-    font-family: 'Open Sans', sans-serif;
-
-}
-
-
-.box3 {
-    width: 19em;
-    background-color: #D7D7D9;
-    height: 15em;
-    padding: 1em 1.5em;
-    margin: 0.1em 0.7em 1em 0.7em;
-    border: none;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.box4 {
-    width: 19em;
-    background-color: #D7D7D9;
-    height: 15em;
-    padding: 1em 1.5em;
-    margin: 0.1em 0.7em 1em 0.7em;
-    border: none;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.box1 h1 {
-    color: black;
-}
-
-.box1 p {
-    color: black
-}
-
-
-
-.box2 h1 {
-    color: black;
-}
-
-.box2 p {
-    color: black;
-}
-
-.contenedor {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-}
-
-
-/*MISION */
-
-/* */
-label {
-    display: block;
-}
-
-/*contacto */
-
-
-
-footer {
-    min-height: 15vh;
     background-color: #757575;
-    width: 100%;
 }
 
+/* body { */
+    /* background-color: #F1F2F2; */
 
+    h1 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.5rem;
+        text-align: center;
+        color: #606578;
+    }
 
-/*MISION,CONTACTO,SOBREMI, SERVICIOS */
+    .contacto {
+        font-size: 1.5em;
+    }
 
-.pieDePagina {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
-    font-family: 'Open Sans', sans-serif;
-    
-   
-}
-
-
-
-#nosVemosFooter{
-    font-family: 'Open Sans', sans-serif;
-    color: #1F0802;
-    font-size: 1rem;
-}
-
-
-
-/*INDEX */
-
-
-
-
-@media (min-width: 320px) and (max-width: 419px) {
-    .gridsBody {
-        grid-template-columns: 1fr;
-
-        grid-template-rows: 10% 35% 9% 45% 15%;
-
+    /*MISION */
+    .tituloMision {
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
 
     }
 
-    h2,p, h1{
-        font-size: 0.6em;
+    .subtitulo {
+
+        margin-top: 3em;
+        margin-bottom: 3em;
     }
 
-    
-}
+    .col {
+        text-align: center;
+    }
+
+    /*MISION */
+    /*INDEX */
+
+    .sectionIndex2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 2em;
+
+    }
+
+    .tituloIndex {
+
+        font-family: 'Open Sans', sans-serif;
+        text-align: left;
+        font-size: 2em;
+
+    }
+
+
+    /*INDEX */
+    p {
+        font-family: 'Open Sans', sans-serif;
+        color: #606578;
+
+        font-size: 1.1rem;
+        line-height: 1;
+
+    }
+
+
+
+    h2 {
+        font-family: 'Open Sans', sans-serif;
+        color: #606578;
+        font-size: 1.3rem;
+        text-align: center;
+
+    }
 
 
 
 
-@media (min-width: 320px) and (max-width: 419px) {
+    /*SERVICIOS */
     .galeria {
-        background-color: tomato;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        grid-column-gap: 2em;
 
     }
 
-    .serviciosParrafo {
-        background-color: aqua;
-        font-size: 1em;
+    .img {
+
+
+        width: 75%;
+        height: 75%;
+        width: 500px;
+        height: 400px;
     }
-    
-    img{
+
+
+
+    .division {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+
+    }
+
+    .textoMision {
+        font-family: 'Open Sans', sans-serif;
+
+    }
+
+
+    .contenedor {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    /* */
+    label {
+        display: block;
+    }
+
+    /*contacto */
+
+
+
+    footer {
+        min-height: 15vh;
+        background-color: #757575;
         width: 100%;
-        max-width: 350px;
-        max-height: 300px;
-    }
-     
-      
-   
-      
     }
 
 
 
-@media (min-width: 420px) and (max-width: 767px) {
-    .galeria {
-        background-color: gold;
+    /*MISION,CONTACTO,SOBREMI, SERVICIOS */
+
+    .pieDePagina {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px;
+        font-family: 'Open Sans', sans-serif;
+
 
     }
 
-    .serviciosParrafo {
-        background-color: red;
-        font-size: 1em;
 
-    }
 
-    h2,p{
+    #nosVemosFooter {
+        font-family: 'Open Sans', sans-serif;
+        color: #1F0802;
         font-size: 1rem;
     }
 
-    .img{
 
-        width: 100%;
-        max-width: 500px;
-        max-height: 500px;
 
-      }
+    /*INDEX */
 
-     
+
+
+
+    @media (min-width: 320px) and (max-width: 419px) {
+        .gridsBody {
+            grid-template-columns: 1fr;
+
+            grid-template-rows: 10% 35% 9% 45% 15%;
+
+
+        }
+
+        h2,
+        p,
+        h1 {
+            font-size: 0.6em;
+        }
+
 
     }
 
-@media (min-width: 992px) and (max-width: 1200px) {
-.galeria{
-    background-color: #f5be6b;
-    
-}
+    @media (min-width: 320px) and (max-width: 419px) {
+        .galeria {
+            background-color: tomato;
 
-.serviciosParrafo{
-    background-color: blue;
+        }
 
-}
+        .serviciosParrafo {
+            background-color: aqua;
+            font-size: 1em;
+        }
 
-.img{
-    width: 100%;
-
-}
-
-}
-
-
-
-@media (min-width: 320px) and (max-width: 419px) {
-    .container{
-        background-color: gold;
-
-    } 
-.carouselExampleDark{
-    background-color: aqua;
-}
+        img {
+            width: 100%;
+            max-width: 350px;
+            max-height: 300px;
+        }
 
 
 
-h2,p{
-    font-size: 0.6rem;
-}
-
-
-
-}
-
-@media (min-width: 420px) and (max-width: 767px) {
-    .container{
-        background-color: red;
 
     }
-    
-   
-}
 
-@media (min-width: 992px) and (max-width: 1200px) {
-    .container{
-        background-color: blue;
+
+
+    @media (min-width: 420px) and (max-width: 767px) {
+        .galeria {
+            background-color: gold;
+
+        }
+
+        .serviciosParrafo {
+            background-color: red;
+            font-size: 1em;
+
+        }
+
+        h2,
+        p {
+            font-size: 1rem;
+        }
+
+        .img {
+
+            width: 100%;
+            max-width: 500px;
+            max-height: 500px;
+
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1200px) {
+        .galeria {
+            background-color: #f5be6b;
+
+        }
+
+        .serviciosParrafo {
+            background-color: blue;
+
+        }
+
+        .img {
+            width: 100%;
+
+        }
 
     }
-    
-    
-}
 
 
 
+    @media (min-width: 320px) and (max-width: 419px) {
+        .container {
+            background-color: gold;
+
+        }
+
+        .carouselExampleDark {
+            background-color: aqua;
+        }
 
 
 
+        h2,
+        p {
+            font-size: 0.6rem;
+        }
 
 
 
+    }
+
+    @media (min-width: 420px) and (max-width: 767px) {
+        .container {
+            background-color: red;
+
+        }
 
 
-.footerIndex {
-    color: white;
-    grid-area: ver;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
- 
+    }
 
-}
+    @media (min-width: 992px) and (max-width: 1200px) {
+        .container {
+            background-color: blue;
 
-.logo1 img {
-    width: 180px;
-
-}
-
-.logo2 img {
-    width: 110px;
-}
-
-.logo3 img {
-    width: 120px;
-}
+        }
 
 
-/*SOBREMI */
-.gridsFooterSobreMi {
-    color: white;
-    grid-area: ver;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
-
-}
+    }
 
 
+    .footerIndex {
+        color: white;
+        grid-area: ver;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px;
 
 
-#nosVemosFooter {
-    color: #1F0802;
-    font-family: opens sans-serif;
-   
+    }
 
-}
+    .logo1 img {
+        width: 180px;
 
-.rrss svg:hover {
+    }
 
-    transform: scale(1.2, 1.2);
-}
+    .logo2 img {
+        width: 110px;
+    }
 
-.rrss svg {
-    width: 2em;
-    height: 2em;
-}
+    .logo3 img {
+        width: 120px;
+    }
 
 
-.parallax{
-    background-image: url(../assets/4.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 85vh;
-}
-   
- 
+    /*SOBREMI */
+    .gridsFooterSobreMi {
+        color: white;
+        grid-area: ver;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px;
+
+    }
+
+    #nosVemosFooter {
+        color: #1F0802;
+        font-family: opens sans-serif;
+        font-size: 1.2em;
 
 
+    }
+
+    .rrss svg:hover {
+
+        transform: scale(1.2, 1.2);
+    }
+
+    .rrss svg {
+        width: 2em;
+        height: 2em;
+    }
 
 
+    .parallax {
+        background-image: url(../assets/4.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 85vh;
+    }
+
+    .tituloServicios {
+        font-size: 1.5rem;
+    }
+
+    .frasesMision {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
 
 
-.tituloServicios{
-    font-size: 1.5rem;
-}
+    .navbar {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1rem;
 
-.frasesMision{
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
+    }
 
+    .contenedorMision {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 1em;
+        margin-bottom: 3em;
 
-.navbar{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-    
-}
+    }
+/* } */
