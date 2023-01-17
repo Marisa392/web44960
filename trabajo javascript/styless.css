@@ -1,0 +1,61 @@
+body{
+   background-color:white;
+}
+h1{
+    color:gray;
+}
+
+header {
+    min-height: 15vh;
+    background-color:black;
+    font-family: 'Open Sans', sans-serif;
+} 
+
+
+footer {
+    min-height: 15vh;
+    background-color:black;
+    width: 100%;
+}
+
+nav.navbar ul.nav li {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.img-fluid{
+    height: 100%;
+    width: 100%;
+}
+
+.titulo{
+    font-size: 2em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 2em;
+}
+
+
+
+.probando{
+    font-size: 2.3em;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    margin-top: 4em;
+}
+
+.parrafo{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    font-size: 1.1em;
+}
+
+    .articulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 3em;
+
+}

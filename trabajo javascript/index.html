@@ -1,15 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="styless.css">
 </head>
+
 <body>
-    <h1>Bienvenido a nuestra tienda de ropa "AMADA" </h1>
+
+    <header>
+        <nav class="navbar navbar-dark bg-black fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Clothes</a>
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Chothes S21</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#Inicio">Inicio</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#Contacto">Contacto</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#Productos" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                   Productos
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#Productos">Remeras</a></li>
+                                    <li><a class="dropdown-item" href="#Productos">Vestidos</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#Productos">Camisas</a></li>
+     
+                                    
+
     
-    <script src="./script3.js"></script>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+
+    </header>
+
+    
+        <section id="Inicio">
+        
+
+        <img src="./assets/summer.jpg "  class="img-fluid" alt="..." >
+       
+        <h1 class="titulo"><strong>PRENDAS QUE TE HARAN SENTIR UNICA</strong> </h1>
+        <p class="parrafo">En nuestra tienda encontraras prendas unicas para cada mujer</p>
+
+
+        <section id="Productos">
+            <h2 class="probando"><strong>Productos</strong></h2>
+            <div class="articulos">
+       
+            <br>
+            <br>
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/remera.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item" onclick="agregarACarrito('remera')" >Agregar a carrito</li>
+                </ul>
+              </div>
+          
+
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/musculosa.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Pantalon
+                  </p>
+                  <p>  $10.000</p>
+                </div>
+                <div class="card-body">
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                  </div>
+                </div>
+
+               
+
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/remeron.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Pantalon
+                  </p>
+                  <p>  $10.000</p>
+                </div>
+                <div class="card-body">
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                  </div>
+                </div>
+
+
+
+
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/vestido-fruncido-de-hombros-descubiertos-floral-28597191508161_1024x1024.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Pantalon
+                   
+                  </p>
+                  <p>  $10.000</p>
+                </div>
+                <div class="card-body">
+      
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                  </div>
+                </div>
+              </div>
+              
+        </section>
+
+
+        <section id="Contacto">
+<p>jsdnmdnakdxanmc</p>
+<p>jsdnmdnakdxanmc</p>
+<p>jsdnmdnakdxanmc</p>
+            
+        </section>
+   
+    <footer>
+
+    </footer>
+
+    <script src="./probando.js"></script>
 </body>
+
 </html>
