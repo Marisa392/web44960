@@ -33,7 +33,7 @@ function prenda1() {
     }
 }
 
-
+/*
 function prenda2() {
     let prenda2 = (prompt("Ingrese la segunda prenda que desea comprar: remera, musculosa,camisa, jeans."));
 
@@ -73,7 +73,48 @@ function calculadora() {
 prenda1();
 prenda2();
 prenda3();
-calculadora();
+calculadora(); */
+
+
+
+
+let boton= document.getElementById("btn")
+
+function respuestaClick(){
+    alert ("Hola soy un evento")
+}
+
+boton.addEventListener("click", respuestaClick)
+
+
+
+
+
+
+
+let form = document.getElementById ("form")
+form.addEventListener ("submit", enviarDatos)
+/*console.log (form)*/
+
+/*function enviarDatos(e){
+e.preventDefault()
+console.log ("el formulario anda")
+}*/
+
+function enviarDatos (e){
+e.preventDefault();
+let dato = e.target
+console.log (dato.children[0].value)
+}
+
+
+
+
+
+
+
+
+
 
 /*function agregarACarrito(producto) {
    const productoAMostrar = producto.toUpperCase();
