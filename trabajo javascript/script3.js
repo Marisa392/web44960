@@ -92,19 +92,24 @@ boton.addEventListener("click", respuestaClick)
 
 
 
-let form = document.getElementById ("form")
+/*let form = document.getElementById ("form")
 form.addEventListener ("submit", enviarDatos)
-/*console.log (form)*/
-
-/*function enviarDatos(e){
+console.log (form)
+function enviarDatos(e){
 e.preventDefault()
 console.log ("el formulario anda")
 }*/
 
-function enviarDatos (e){
+let miFormulario = document.getElementById ("formulario");
+miFormulario.addEventListener ("submit",validarFormulario);
+
+
+function validarFormulario (e){
 e.preventDefault();
-let dato = e.target
-console.log (dato.children[0].value)
+let formulario = e.target
+
+console.log (formulario.children[0].value)
+console.log (formulario.children[1].value)
 }
 
 
