@@ -19,7 +19,7 @@ console.log(preciosConIvaYProdEnMay)
 
 
 
-function prenda1() {
+ /*function prenda1() {
     let prenda1 = (prompt("Ingrese la primer prenda que desea comprar: remera, musculosa,camisa,jeans."));
 
     const producto = preciosConIvaYProdEnMay.find(x => x.nombre == prenda1.toUpperCase())
@@ -33,7 +33,7 @@ function prenda1() {
     }
 }
 
-/*
+
 function prenda2() {
     let prenda2 = (prompt("Ingrese la segunda prenda que desea comprar: remera, musculosa,camisa, jeans."));
 
@@ -81,12 +81,22 @@ calculadora(); */
 let boton= document.getElementById("btn")
 
 function respuestaClick(){
-    alert ("Hola soy un evento")
+    alert ("Su producto se agrego al carrito")
 }
 
 boton.addEventListener("click", respuestaClick)
 
 
+
+
+
+
+
+
+/*function agregarACarrito(producto) {
+   const productoAMostrar = producto.toUpperCase();
+   alert('nuevo producto en carrito: ' + productoAMostrar);
+ } */
 
 
 
@@ -108,20 +118,27 @@ function validarFormulario (e){
 e.preventDefault();
 let formulario = e.target
 
-console.log (formulario.children[0].value)
 console.log (formulario.children[1].value)
+console.log (formulario.children[2].value)
+console.log (formulario.children[3].value)
 }
 
 
 
+/*localStorage.setItem ('alumna','marisa')
+localStorage.setItem ('unNumero','20')
+
+let mensaje= localStorage.getItem ('alumna')
+console.log (mensaje);*/
 
 
 
 
 
 
-
-/*function agregarACarrito(producto) {
+/* function agregarACarrito(producto) {
    const productoAMostrar = producto.toUpperCase();
    alert('nuevo producto en carrito: ' + productoAMostrar);
  } */
+
+
