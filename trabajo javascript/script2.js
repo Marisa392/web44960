@@ -348,7 +348,7 @@ const precioAPagar=saldos.reduce((acc,element) => acc + element,0 )
 console.log(precioAPagar)*/
 
 
-const prod =[
+/*const prod =[
     {nombre:"Arroz",precio:500},
     {nombre:"Harina",precio:500},
     {nombre:"Harina",precio:600},
